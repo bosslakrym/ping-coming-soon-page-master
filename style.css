@@ -1,0 +1,219 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Libre Franklin', sans-serif;
+    /* - Weights: 300, 600, 700 */
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 30px;
+}
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+.logo {
+    display: flex;
+    justify-content: center;
+}
+.lead {
+    margin-top: 30px;
+}
+.big-text {
+    font-size: 3rem;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    
+}
+.big-text span {
+    font-weight: 300;
+    opacity: 50%;
+    padding-right: 10px;
+}
+.small-text {
+    text-align: center;
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: 300;
+    margin-top: 10px;
+    font-size: 1rem;
+}
+.subscribe {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.subscribe-input {
+    padding-left: 30px;
+    opacity: 70%;
+    border-radius: 25px;
+    width: 100%;
+    height: 50px;
+    border: 1px solid rgb(206, 203, 203);
+}
+.subscribe-input::placeholder {
+    color: rgb(206, 203, 203);
+    padding-left: 5px;
+}
+
+button {
+    background-color:hsl(223, 87%, 63%);
+    border-radius: 25px;
+    height: 50px;
+    width: 300px;
+    margin-left: 20px;
+    border: none;
+    color: white;
+    font-family: 'Libre Franklin', sans-serif;
+    box-shadow: 7px 10px 32px -14px rgba(0,0,0,0.75);
+    cursor: pointer;
+}
+button:hover {
+    background-color: l(223, 100%, 88%);
+}
+
+.big-image {
+    display: flex;
+    justify-content: center;
+}
+.big-image img {
+    width: 700px;
+    margin-top: 80px;
+    margin-bottom: 50px;
+    /* display: flex;
+    justify-content: center; */
+}
+.social-icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 100px;
+}
+.twitter, .facebook, .instagram {
+    height: 50px;
+    width:50px ;
+    border-radius: 50%;
+    border: blue 2px solid;
+    color: blue;
+    margin-left: 30px;
+}
+.fa-brands.fa-facebook-f {
+    font-size: 25px;
+    position: relative;
+    top: 12px;
+    left: 17px;
+}
+.fa-brands.fa-twitter {
+    font-size: 25px;
+    position: relative;
+    top: 12px;
+    left: 14px;
+}
+.fa-brands.fa-instagram {
+    font-size: 25px;
+    position: relative;
+    top: 12px;
+    left: 14px;
+}
+.others{
+    margin-top: 30px;
+    justify-content: center;
+}
+.copyright {
+    justify-content: center;
+    display: flex;
+    opacity: 50%;
+}
+
+
+
+@media (max-width:780px) {
+    body {
+        margin-top: 100px;
+    }
+
+.subscribe {
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    margin-right: 30px;
+    vertical-align: middle;
+    width: 450px;
+}
+.subscribe-input {
+    width: 100%;
+    justify-content: center;
+    /* margin-left: 30px; */
+}
+button {
+    width: 100%;
+    margin-top: 18px;
+    margin-left: 0px;
+}
+.big-image img {
+    width: 500px;
+    margin-top: 80px;
+}
+
+
+.twitter, .facebook, .instagram {
+    height: 30px;
+    width: 30px ;
+    border-radius: 50%;
+    border: blue 1px solid;
+    color: blue;
+    margin-left: 30px;
+}
+.fa-brands.fa-facebook-f {
+    font-size: 15px;
+    position: relative;
+    top: 5px;
+    left: 10px;
+}
+.fa-brands.fa-twitter {
+    font-size: 15px;
+    position: relative;
+    top: 5px;
+    left: 7px;
+}
+.fa-brands.fa-instagram {
+    font-size: 15px;
+    position: relative;
+    top: 5px;
+    left: 8px;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+}
+.lead {
+    margin-top: 30px;
+}
+.big-text {
+    font-size: 2rem;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    
+}
+.big-text span {
+    font-weight: 300;
+    opacity: 50%;
+    padding-right: 10px;
+}
+.small-text {
+    text-align: center;
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: 300;
+    margin-top: 15px;
+    font-size: 1rem;
+}
+}
